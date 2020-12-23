@@ -31,3 +31,17 @@
 .left-container {
   margin-right: 10px;
 }
+
+.nav-footer {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+a {
+  color: #383838;
+}
+
+.nav-footer a,
+.gay-link {
+  color: #383838 !important;
+}

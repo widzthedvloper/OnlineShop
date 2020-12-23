@@ -1,3 +1,14 @@
+p,
+h1,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
 a {
   text-decoration: none;
 }
@@ -12,6 +23,16 @@ a {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+
+.dark-color {
+  color: #383838;
+  font-weight: bold;
+}
+
+.dark-color-light {
+  color: #383838;
+  font-weight: bold;
 }
 
 .navbar .logo,
