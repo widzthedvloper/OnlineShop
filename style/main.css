@@ -85,4 +85,16 @@ section {
   .ads-section {
     height: 430px;
   }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .carousel-item .carousel-div {
+    width: 40% !important;
+  }
 }
