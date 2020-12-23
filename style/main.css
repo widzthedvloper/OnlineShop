@@ -55,7 +55,7 @@ a {
 }
 
 .ads-section img {
-  height: 190px
+  height: 190px;
 }
 
 .banner-div {
@@ -66,11 +66,19 @@ section {
   margin-bottom: 10px;
 }
 
+.best-seller .carousel-div,
+.sales .carousel-div,
+.brand-new .carousel-div {
+  width: 20%;
+  padding: 5px;
+  margin: 10px;
+}
+
 @media only screen and (max-width: 767px) {
   .ads-element {
     width: 100% !important;
-  }  
-  
+  }
+
   .ads-section {
     height: 55vh;
   }
