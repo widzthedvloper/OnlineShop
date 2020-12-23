@@ -7,13 +7,15 @@ a {
   height: 38px;
 }
 
-.navbar img {
+.navbar img,
+.footer-top .logo {
   width: 30px;
   height: 30px;
   border-radius: 50%;
 }
 
-.navbar .logo {
+.navbar .logo,
+.footer-top .logo {
   border: 2px solid #d35266;
 }
 
@@ -32,12 +34,13 @@ a {
 }
 
 .white-link {
-  color: #Fff;
+  color: #fff;
 }
 
 .color-red {
   color: #d35266;
 }
+
 .background-red {
   background-color: #d35266;
 }
