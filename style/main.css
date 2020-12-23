@@ -54,7 +54,7 @@ a {
 }
 
 .ads-section {
-  height: 25vh;
+  height: 28vh;
 }
 
 .ads-section img {
@@ -83,6 +83,6 @@ section {
   }
 
   .ads-section {
-    height: 55vh;
+    height: 430px;
   }
 }
