@@ -6,6 +6,7 @@ Disclaimer: the original design is from 👤**Mohammed Awad** on Behance [Link O
 This website has been designed for two screen size, small up to 767px.You can download the repo and open the "index.html" file with Mozilla Firefox or google Chrome or any browser you may choose.
 
 ![screenshot](assets/Screenshot1.png)
+
 ![screenshot](assets/Screenshot2.png)
 
 The purpose of these project is to create a similar looking website to thenexweb.com using HTML and CSS.
@@ -16,24 +17,6 @@ The purpose of these project is to create a similar looking website to thenexweb
     -CSS
     -bootstrap
     -jquery & javascript (downloaded with bootstrap).
-
-## LIVE DEMO
-
-[Live Demo Link](# THE NEXT WEB-CLone
-This project is a clone of a thenextweb.com website. The page is responsive
-
-# Getting started :
-This website has been designed for a screen size of 1920 X 1080 in Mozilla Firefox browser.
-You can also download the repo and open the "index.html" file with Mozilla Firefox.
-
-![screenshot](assets/screenshot.jpg)
-
-The purpose of these project is to create a similar looking website to thenexweb.com using HTML and CSS.
-
-## BUILT WITH
-
-    -HTML
-    -CSS
 
 ## LIVE DEMO
 
