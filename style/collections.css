@@ -1,0 +1,9 @@
+.banner-section {
+  height: 25vh;
+}
+
+.banner-section h1,
+.banner-section p,
+.banner-section .banner-form {
+  text-align: left !important;
+}
