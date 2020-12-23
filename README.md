@@ -5,11 +5,11 @@ Disclaimer: the original design is from 👤**Mohammed Awad** on Behance [Link O
 # Getting started :
 This website has been designed for two screen size, small up to 767px.You can download the repo and open the "index.html" file with Mozilla Firefox or google Chrome or any browser you may choose.
 
-![screenshot](assets/Screenshot1.png)
-
+# Main Page
 ![screenshot](assets/Screenshot2.png)
 
-The purpose of these project is to create a similar looking website to thenexweb.com using HTML and CSS.
+#Result Page or COLLECTIONS
+![screenshot](assets/Screenshot1.png)
 
 ## BUILT WITH
 
