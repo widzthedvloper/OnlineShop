@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #383838;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.navbar .logo {
+  border: 2px solid #d35266;
+}
+
+.link-logo {
+  color: #fff;
+}
+
+.home {
+  color: #d35266;
+}
+
+.btn-post {
+  color: #fff;
+  background-color: #d35266;
+  border-radius: 0;
+}
+
+.white-link {
+  color: #fff;
+}
