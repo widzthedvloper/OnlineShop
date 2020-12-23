@@ -8,7 +8,7 @@ This website has been designed for two screen size, small up to 767px.You can do
 # Main Page
 ![screenshot](assets/Screenshot2.png)
 
-#Result Page or COLLECTIONS
+# Result Page Or COLLECTIONS
 ![screenshot](assets/Screenshot1.png)
 
 ## BUILT WITH
