@@ -22,6 +22,8 @@ This website has been designed for two screen size, small up to 767px.You can do
 
 [Live Demo Link](https://widzthedvloper.github.io/OnlineShop/)
 
+[Video Of The Project](https://youtu.be/DhBpjKItmj0)
+
 ##  AUTHORS
 
 👤 **Widzmarc Jean Nesly Phelle**
