@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar container-fluid sticky-top">
+  <nav class="navbar container-fluid sticky-top background-maron">
     <div class="container d-flex">
       <div class="nav-lef-container d-flex align-items-baseline">
         <div class="logo-container me-3">
@@ -42,28 +42,30 @@
       </div>
     </div>
   </nav>
-  <section class="banner-section">
-    <h1>LOVELY PET</h1>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nostrum!</p>
-    <form class="banner-form" action="index.html" method="post">
-      <select class="select" name="category">
-        <option value="brushes">BRUSHES</option>
-        <option value="chew-toys">CHEW TOYS</option>
-        <option value="colar-and-leashes">COLAR AND LEASHES</option>
-        <option value="bed">BED</option>
-        <option value="cleaning">CLEANING</option>
-      </select>
-      <input type="text" name="search" placeholder="What do you search for?">
-      <input type="text" name="brand" placeholder="Brand?">
-      <button type="button" name="button">SEARCH</button>
-    </form>
+  <section class="banner-section container-fluid background-red d-flex align-items-end">
+    <div class="container h-60 banner-div">
+      <h1 class="text-center white-link">LOVELY PET</h1>
+      <p class="text text-center white-link mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nostrum!</p>
+      <form class="banner-form text-center" action="index.html" method="post">
+        <select class="select no-border" name="category">
+          <option value="brushes">BRUSHES</option>
+          <option value="chew-toys">CHEW TOYS</option>
+          <option value="colar-and-leashes">COLAR AND LEASHES</option>
+          <option value="bed">BED</option>
+          <option value="cleaning">CLEANING</option>
+        </select>
+        <input class="no-border" type="text" name="search" placeholder="What do you search for?">
+        <input class="no-border" type="text" name="brand" placeholder="Brand?">
+        <a class="btn background-maron btn-post" href="#">SEARCH</a>
+      </form>
+    </div>
   </section>
-  <section class="ads-section">
+  <section class="ads-section container">
     <h5>HOT ADS</h5>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active d-flex">
-          <img src="assets/ads.png" class="d-block w-50" alt="ads image">
+          <img src="assets/ads.png" class="d-block w-50 me-3" alt="ads image">
           <div class="d-block w-50">
             <h5>Lorem ipsum dolor sit amet.</h5>
             <p class="text">Lorem ipsum dolor sit amet, consectetur
@@ -72,8 +74,10 @@
               assumenda dolor nostrum architecto non
               quos incidunt ab nihil est. Deleniti,
               adipisci maxime.</p>
-            <a href="#" class="button">450&#36;</a>
-            <a href="#" class="button">Purchase details</a>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="#" class="btn background-red white-link">450&#36;</a>
+              <a href="#" class="btn background-red white-link"><i class="fas fa-shopping-cart me-1"></i> Purchase details</a>
+            </div>
           </div>
         </div>
       </div>
