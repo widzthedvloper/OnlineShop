@@ -11,3 +11,23 @@
 .result-section img {
   width: 194px;
 }
+
+.right-container {
+  border-left: 1px solid gray;
+}
+
+.right-container > div {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.right-container > p {
+  margin-left: 30px;
+}
+
+.left-container {
+  margin-right: 10px;
+}
