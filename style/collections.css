@@ -1,5 +1,5 @@
 .banner-section {
-  height: 25vh;
+  height: 250px;
 }
 
 .result-section img {
@@ -39,4 +39,10 @@
 #link6,
 a {
   color: #383838;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-section {
+    height: 370px;
+  }
 }
