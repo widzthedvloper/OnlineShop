@@ -14,337 +14,341 @@
 </head>
 
 <body>
-  <nav class="navbar container-fluid sticky-top background-maron">
-    <div class="container d-flex">
-      <div class="nav-lef-container d-flex align-items-baseline">
-        <div class="logo-container me-3">
-          <img class="logo" src="assets/logo.png" alt="logo of the page">
-          <a class="link-logo" href="#">LOVELY PET</a>
-        </div>
-        <div class="link-container me-3">
-          <i class="fas fa-home me-1 home"></i>
-          <a class="home" href="#">HOME</a>
-        </div>
-        <div class="link-container me-3 white-link">
-          <i class="fas fa-border-all me-1"></i>
-          <a class="white-link" href="./pages/collections.html">COLLECTIONS</a>
-        </div>
-        <div class="link-container me-3 white-link">
-          <i class="fas fa-shopping-cart me-1"></i>
-          <a class="white-link" href="#">PURCHASE LIST</a>
-        </div>
-        <div class="post-ad-link d-none d-md-inline-block">
-          <a class="btn btn-post" href="#">POST AN AD</a>
-        </div>
-      </div>
-      <div class="nav-right-container d-none d-lg-flex align-items-center white-link">
-        <i class="fas fa-envelope-square me-2"></i>
-        <a class="me-2 white-link" href="https://github.com/widzthedvloper">widzthedvloper</a>
-        <img class="user" src="assets/user.jpeg" alt="image of the user">
-      </div>
-    </div>
-  </nav>
-  <section class="banner-section container-fluid background-red d-flex align-items-end">
-    <div class="container h-60 banner-div">
-      <h1 class="text-center white-link">LOVELY PET</h1>
-      <p class="text text-center white-link mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nostrum!</p>
-      <form class="banner-form text-center" action="index.html" method="post">
-        <select class="select no-border" name="category">
-          <option value="brushes">BRUSHES</option>
-          <option value="chew-toys">CHEW TOYS</option>
-          <option value="colar-and-leashes">COLAR AND LEASHES</option>
-          <option value="bed">BED</option>
-          <option value="cleaning">CLEANING</option>
-        </select>
-        <input class="no-border" type="text" name="search" placeholder="What do you search for?">
-        <input class="no-border" type="text" name="brand" placeholder="Brand?">
-        <a class="btn background-maron btn-post" href="#">SEARCH</a>
-      </form>
-    </div>
-  </section>
-  <section class="ads-section container">
-    <h5 class="dark-color">HOT ADS</h5>
-    <div id="carouselExampleControls0" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active d-flex flex-column flex-sm-column flex-md-row">
-          <img src="assets/ads.png" class="d-block w-50 me-3 ads-element" alt="ads image">
-          <div class="d-block w-50 ads-element">
-            <h5 class="home">Lorem ipsum dolor sit amet.</h5>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Officia quae odit dolorem,
-              debitis iste, sapiente nemo dolores,
-              assumenda dolor nostrum architecto non
-              quos incidunt ab nihil est. Deleniti,
-              adipisci maxime.</p>
-            <div class="btn-group" role="group" aria-label="Basic example">
-              <a href="#" class="btn background-red white-link">450&#36;</a>
-              <a href="#" class="btn background-red white-link"><i class="fas fa-shopping-cart me-1"></i> Purchase details</a>
-            </div>
+  <header>
+    <nav class="navbar container-fluid sticky-top background-maron">
+      <div class="container d-flex">
+        <div class="nav-lef-container d-flex align-items-baseline">
+          <div class="logo-container me-3">
+            <img class="logo" src="assets/logo.png" alt="logo of the page">
+            <a class="link-logo" href="#">LOVELY PET</a>
           </div>
+          <div class="link-container me-3">
+            <i class="fas fa-home me-1 home"></i>
+            <a class="home" href="#">HOME</a>
+          </div>
+          <div class="link-container me-3 white-link">
+            <i class="fas fa-border-all me-1"></i>
+            <a class="white-link" href="./pages/collections.html">COLLECTIONS</a>
+          </div>
+          <div class="link-container me-3 white-link">
+            <i class="fas fa-shopping-cart me-1"></i>
+            <a class="white-link" href="#">PURCHASE LIST</a>
+          </div>
+          <div class="post-ad-link d-none d-md-inline-block">
+            <a class="btn btn-post" href="#">POST AN AD</a>
+          </div>
+        </div>
+        <div class="nav-right-container d-none d-lg-flex align-items-center white-link">
+          <i class="fas fa-envelope-square me-2"></i>
+          <a class="me-2 white-link" href="https://github.com/widzthedvloper">widzthedvloper</a>
+          <img class="user" src="assets/user.jpeg" alt="image of the user">
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
-    </div>
-  </section>
-  <section class="best-seller container">
-    <h5 class="dark-color">BEST SELLER</h5>
-    <hr>
-    <div id="carouselExampleControls1" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-inner d-flex">
-        <div class="carousel-item active d-flex">
-          <div class="carousel-div border">
-            <img src="assets/cleaning1.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
-            </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/bed1.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
-            </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/bowl1.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
-            </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/brushes1.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
-            </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/chew1.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
-            </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/colar1.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+    </nav>
+  </header>
+  <main>
+    <section class="banner-section container-fluid background-red d-flex align-items-end">
+      <div class="container h-60 banner-div">
+        <h1 class="text-center white-link">LOVELY PET</h1>
+        <p class="text text-center white-link mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nostrum!</p>
+        <form class="banner-form text-center" action="index.html" method="post">
+          <select class="select no-border" name="category">
+            <option value="brushes">BRUSHES</option>
+            <option value="chew-toys">CHEW TOYS</option>
+            <option value="colar-and-leashes">COLAR AND LEASHES</option>
+            <option value="bed">BED</option>
+            <option value="cleaning">CLEANING</option>
+          </select>
+          <input class="no-border" type="text" name="search" placeholder="What do you search for?">
+          <input class="no-border" type="text" name="brand" placeholder="Brand?">
+          <a class="btn background-maron btn-post" href="#">SEARCH</a>
+        </form>
+      </div>
+    </section>
+    <section class="ads-section container">
+      <h5 class="dark-color">HOT ADS</h5>
+      <div id="carouselExampleControls0" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex flex-column flex-sm-column flex-md-row">
+            <img src="assets/ads.png" class="d-block w-50 me-3 ads-element" alt="ads image">
+            <div class="d-block w-50 ads-element">
+              <h5 class="home">Lorem ipsum dolor sit amet.</h5>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Officia quae odit dolorem,
+                debitis iste, sapiente nemo dolores,
+                assumenda dolor nostrum architecto non
+                quos incidunt ab nihil est. Deleniti,
+                adipisci maxime.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <a href="#" class="btn background-red white-link">450&#36;</a>
+                <a href="#" class="btn background-red white-link"><i class="fas fa-shopping-cart me-1"></i> Purchase details</a>
+              </div>
             </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
-    </div>
-  </section>
-  <section class="sales container">
-    <h5 class="dark-color">SALES</h5>
-    <hr>
-    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-inner d-flex">
-        <div class="carousel-item active d-flex">
-          <div class="carousel-div border">
-            <img src="assets/cleaning2.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+    </section>
+    <section class="best-seller container">
+      <h5 class="dark-color">BEST SELLER</h5>
+      <hr>
+      <div id="carouselExampleControls1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner d-flex">
+          <div class="carousel-item active d-flex">
+            <div class="carousel-div border">
+              <img src="assets/cleaning1.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/bed2.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/bed1.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/bowl2.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/bowl1.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/brushes2.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/brushes1.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/chew2.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/chew1.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/colar2.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/colar1.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
-    </div>
-  </section>
-  <section class="brand-new container">
-    <h5 class="dark-color">BRAND NEW</h5>
-    <hr>
-    <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-inner d-flex">
-        <div class="carousel-item active d-flex">
-          <div class="carousel-div border">
-            <img src="assets/cleaning3.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+    </section>
+    <section class="sales container">
+      <h5 class="dark-color">SALES</h5>
+      <hr>
+      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner d-flex">
+          <div class="carousel-item active d-flex">
+            <div class="carousel-div border">
+              <img src="assets/cleaning2.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/bed3.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/bed2.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/bowl3.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/bowl2.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/brushes3.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/brushes2.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/chew3.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/chew2.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
-          </div>
-          <div class="carousel-div border">
-            <img src="assets/colar3.png" class="d-block w-100" alt="...">
-            <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Blanditiis ut ipsam dolorem
-              ea unde eius sint, atque numquam omnis est.</p>
-            <h5 class="carousel-text home">New</h5>
-            <div class="carousel-text d-flex justify-content-between">
-              <span class="plus border px-1">+</span>
-              <a class="home" href="#">450&#36;</a>
+            <div class="carousel-div border">
+              <img src="assets/colar2.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
             </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
-    </div>
-  </section>
+    </section>
+    <section class="brand-new container">
+      <h5 class="dark-color">BRAND NEW</h5>
+      <hr>
+      <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner d-flex">
+          <div class="carousel-item active d-flex">
+            <div class="carousel-div border">
+              <img src="assets/cleaning3.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
+            </div>
+            <div class="carousel-div border">
+              <img src="assets/bed3.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
+            </div>
+            <div class="carousel-div border">
+              <img src="assets/bowl3.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
+            </div>
+            <div class="carousel-div border">
+              <img src="assets/brushes3.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
+            </div>
+            <div class="carousel-div border">
+              <img src="assets/chew3.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
+            </div>
+            <div class="carousel-div border">
+              <img src="assets/colar3.png" class="d-block w-100" alt="...">
+              <p class="carousel-text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Blanditiis ut ipsam dolorem
+                ea unde eius sint, atque numquam omnis est.</p>
+              <h5 class="carousel-text home">New</h5>
+              <div class="carousel-text d-flex justify-content-between">
+                <span class="plus border px-1">+</span>
+                <a class="home" href="#">450&#36;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </section>
+  </main>
   <footer>
     <div class="container-fluid border-top border-bottom p-3">
       <div class="footer-top d-flex flex-column flex-md-row container">
