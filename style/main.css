@@ -98,9 +98,9 @@ section {
   margin: 10px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .ads-element {
-    width: 100% !important;
+    width: 100%;
   }
 
   .ads-section {
@@ -116,6 +116,6 @@ section {
   }
 
   .carousel-item .carousel-div {
-    width: 40% !important;
+    width: 40%;
   }
 }

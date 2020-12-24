@@ -2,12 +2,6 @@
   height: 25vh;
 }
 
-.banner-section h1,
-.banner-section p,
-.banner-section .banner-form {
-  text-align: left !important;
-}
-
 .result-section img {
   width: 194px;
 }
@@ -37,11 +31,12 @@
   margin-bottom: 80px;
 }
 
+#link1,
+#link2,
+#link3,
+#link4,
+#link5,
+#link6,
 a {
   color: #383838;
-}
-
-.nav-footer a,
-.gay-link {
-  color: #383838 !important;
 }
