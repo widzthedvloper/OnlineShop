@@ -25,12 +25,8 @@ a {
   border-radius: 50%;
 }
 
+.dark-color-light,
 .dark-color {
-  color: #383838;
-  font-weight: bold;
-}
-
-.dark-color-light {
   color: #383838;
   font-weight: bold;
 }
@@ -40,28 +36,22 @@ a {
   border: 2px solid #d35266;
 }
 
+.btn-post,
+.white-link,
 .link-logo {
   color: #fff;
 }
 
+.color-red,
 .home {
   color: #d35266;
 }
 
 .btn-post {
-  color: #fff;
-  background-color: #d35266;
   border-radius: 0;
 }
 
-.white-link {
-  color: #fff;
-}
-
-.color-red {
-  color: #d35266;
-}
-
+.btn-post,
 .background-red {
   background-color: #d35266;
 }
