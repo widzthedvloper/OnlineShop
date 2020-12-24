@@ -31,6 +31,10 @@ a {
   font-weight: bold;
 }
 
+.gray {
+  color: #212529;
+}
+
 .navbar .logo,
 .footer-top .logo {
   border: 2px solid #d35266;
@@ -91,7 +95,11 @@ section {
 @media only screen and (max-width: 768px) {
   .navbar .logo-container,
   .navbar .link-container {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+  }
+
+  .best-seller {
+    margin-top: 60px;
   }
 
   .ads-element {
