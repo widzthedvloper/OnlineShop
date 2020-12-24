@@ -1,0 +1,48 @@
+.banner-section {
+  height: 250px;
+}
+
+.result-section img {
+  width: 194px;
+}
+
+.right-container {
+  border-left: 1px solid gray;
+}
+
+.right-container > div {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.right-container > p {
+  margin-left: 30px;
+}
+
+.left-container {
+  margin-right: 10px;
+}
+
+.nav-footer {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+#link1,
+#link2,
+#link3,
+#link4,
+#link5,
+#link6,
+a {
+  color: #383838;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-section {
+    height: 370px;
+  }
+}

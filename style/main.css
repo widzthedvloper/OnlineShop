@@ -1,0 +1,124 @@
+p,
+h1,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.no-border {
+  border-radius: 0;
+  height: 38px;
+}
+
+.navbar img,
+.footer-top .logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dark-color-light,
+.dark-color {
+  color: #383838;
+  font-weight: bold;
+}
+
+.gray {
+  color: #212529;
+}
+
+.navbar .logo,
+.footer-top .logo {
+  border: 2px solid #d35266;
+}
+
+.btn-post,
+.white-link,
+.link-logo {
+  color: #fff;
+}
+
+.color-red,
+.home {
+  color: #d35266;
+}
+
+.btn-post {
+  border-radius: 0;
+}
+
+.btn-post,
+.background-red {
+  background-color: #d35266;
+}
+
+.background-maron {
+  background-color: #383838;
+}
+
+.banner-section {
+  height: 318px;
+}
+
+.ads-section {
+  height: 250px;
+}
+
+.ads-section img {
+  height: 190px;
+}
+
+.banner-div {
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+.best-seller .carousel-div,
+.sales .carousel-div,
+.brand-new .carousel-div {
+  width: 20%;
+  padding: 5px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar .logo-container,
+  .navbar .link-container {
+    font-size: 0.5rem;
+  }
+
+  .best-seller {
+    margin-top: 60px;
+  }
+
+  .ads-element {
+    width: 100%;
+  }
+
+  .ads-section {
+    height: 430px;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .carousel-item .carousel-div {
+    width: 40%;
+  }
+}
