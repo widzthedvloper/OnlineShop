@@ -1,7 +1,5 @@
 # Online-Shop
 This project is an online shop for pet utensils. In this online shop, two pages constitute the website. The first one, the main page, laid out the different categories of products, including the most selling products, and the ultimate page is the search result.
-
-# Acknowledgments
 The original design is from 👤**Mohammed Awad**.
 [Link Of the Design](https://www.behance.net/gallery/24796463/ZATTIX)
 
@@ -25,8 +23,6 @@ You can also clone the repository and open the index file in any browser you use
 ## LIVE DEMO
 
 [Live Demo Link](https://widzthedvloper.github.io/OnlineShop/)
-
-[Video Of The Project](https://youtu.be/DhBpjKItmj0)
 
 ##  AUTHORS
 
